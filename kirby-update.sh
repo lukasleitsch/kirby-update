@@ -2,7 +2,7 @@
 
 PATH_SCRIPT=$(pwd)
 
-if ls $(dirname $0)/update-kirby.d/*.config 1> /dev/null 2>&1; then
+if ls $(dirname $0)/config.d/*.config 1> /dev/null 2>&1; then
 
 	for f in $(dirname $0)/update-kirby.d/*.config
 	   do
