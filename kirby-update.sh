@@ -4,7 +4,7 @@ PATH_SCRIPT=$(pwd)
 
 if ls $(dirname $0)/config.d/*.config 1> /dev/null 2>&1; then
 
-	for f in $(dirname $0)/update-kirby.d/*.config
+	for f in $(dirname $0)/config.d/*.config
 	   do
 	   		source $f
 	   		cd $PATH_LOCAL
