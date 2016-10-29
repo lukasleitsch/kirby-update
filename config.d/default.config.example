@@ -1,0 +1,5 @@
+PATH_LOCAL='/Users/lukas/Sites/leitsch/src/'
+PATH_REMOTE='/home/le/html/lukasleitsch/'
+SSH_NAME='leitsch'
+URL_LOCAL='http://leitsch.dev'
+URL_REMOTE='http://leitsch.org'
