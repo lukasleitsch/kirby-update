@@ -15,6 +15,7 @@ if ls $(dirname $0)/config.d/*.config 1> /dev/null 2>&1; then
 					git add panel
 				fi
 				git commit -m "Update kirby"
+				git push
 	   		open $URL_LOCAL
 	   		read -p 'Everything okay with the local version? [Enter]'
 	   		rsync --delete -avze ssh ${PATH_LOCAL}kirby/ ${SSH_NAME}:${PATH_REMOTE}kirby
